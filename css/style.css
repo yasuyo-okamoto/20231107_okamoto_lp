@@ -85,7 +85,7 @@ header > .header__inner{
 
 .whatsnew__title{
     inline-size: 150px;
-    margin-left: 300px;
+    margin-left: 20%;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -180,13 +180,11 @@ header > .header__inner{
 
 .businesscontents{
     margin-top: 100px;
-
 }
 
 .businesscontents__title{
-    margin-left: 100px;
+    margin-left: 20%;
 }
-
 
 .businesscontents__title div{
     font-family: 'Hachi Maru Pop', cursive;
@@ -306,7 +304,7 @@ header > .header__inner{
 }
 
 .blog__title{
-    margin-left: 170px;
+    margin-left: 20%;
 }
 
 .blog__title div{
@@ -401,7 +399,7 @@ header > .header__inner{
 }
 
 .companyprofile__title{
-    margin-left: 230px;
+    margin-left: 30%;
 }
 
 .companyprofile__title div{
