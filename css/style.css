@@ -45,14 +45,12 @@ header > .header__inner{
     height: 500px;
 }
 
-.firstview__img div{
-    
-}
-
 .firstview__img img{
     width: 50vw;
-    height: 25vh;
-    text-align: right;
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .firstview__title{
