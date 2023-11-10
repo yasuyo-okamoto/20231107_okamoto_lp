@@ -38,18 +38,28 @@ header > .header__inner{
     color: gray;
 }
 
-.firstview__img {
-    width: -60%;
-    height: -40%;
+.firstview{
+    margin-top: 100px;
+    width: 100%;
     position: relative;
+    height: 500px;
+}
+
+.firstview__img div{
+    
+}
+
+.firstview__img img{
+    width: 50vw;
+    height: 25vh;
     text-align: right;
 }
 
 .firstview__title{
     inline-size: 800px;
     position: absolute;
-    top: 200px;
-    left: 200px;
+    top: 20%;
+    left: 20%;
     z-index: 2;
 }
 
