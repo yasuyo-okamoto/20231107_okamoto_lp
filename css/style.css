@@ -47,7 +47,6 @@ header > .header__inner{
 
 .firstview__img img{
     width: 50vw;
-    height: 20vh;
     display: block;
     margin-left: auto;
     margin-right: 0;
@@ -88,12 +87,15 @@ header > .header__inner{
 
 .whatsnew{
     margin-top: 100px;
+    margin-left: 100px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .whatsnew__title{
     inline-size: 150px;
-    margin-left: 20%;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -110,7 +112,6 @@ header > .header__inner{
 }
 
 .whatsnew__item{
-    margin: 0 auto;
 }
 
 .whatsnew__item ul{
@@ -182,16 +183,17 @@ header > .header__inner{
 
 .about__img{
     width: 400px;
-    height: 250px;
     margin-left: 100px;
 }
 
 .businesscontents{
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
 .businesscontents__title{
-    margin-left: 20%;
 }
 
 .businesscontents__title div{
@@ -211,7 +213,6 @@ header > .header__inner{
     display: grid;
     grid-template-rows: 250px 250px;
     grid-template-columns: 500px 500px;
-    justify-content: center;
 }
 
 .businesscontents__item__1{
@@ -223,7 +224,6 @@ header > .header__inner{
 
 .businesscontents__element--img__1{
     width: 200px;
-    height: 200px;
     margin: 50px auto;
 }
 
@@ -253,7 +253,6 @@ header > .header__inner{
 
 .businesscontents__element--img__2 {
     width: 150px;
-    height: 150px;
     margin-top: 40px;
     margin-left: 20px;
 }
@@ -286,7 +285,6 @@ header > .header__inner{
 
 .businesscontents__element--img__3 {
     width: 150px;
-    height: 150px;
     margin-top: 40px;
     margin-left: 20px;
 }
@@ -307,12 +305,14 @@ header > .header__inner{
 
 .blog{
     background-color: rgb(207, 207, 207);
-    margin-top: 100px;
     height: 600px;
 }
 
-.blog__title{
-    margin-left: 20%;
+.blog__item--all{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
 .blog__title div{
@@ -330,7 +330,6 @@ header > .header__inner{
 
 .blog__item{
     display: flex;
-    justify-content: center;
 }
 
 .blog__item--element{
@@ -345,7 +344,6 @@ header > .header__inner{
 
 .blog__item--element--img{
     width: 280px;
-    height: 200px;
     border-radius: 20px 20px 0 0;
 }
 
@@ -356,7 +354,7 @@ header > .header__inner{
     border-radius: 20px 0 0 0;
     padding: 10px;
     text-align: center;
-    margin: -200px 0;
+    margin: -188px 0;
 }
 
 .blog__item--element--title{
@@ -388,7 +386,7 @@ header > .header__inner{
     line-height: 50px;
     border-radius: 50px;
     text-align: center;
-    margin:  50px auto 0 auto;
+    margin: 60px auto 0 auto;
     list-style: none;
     text-decoration: none;
     border: solid;
@@ -404,10 +402,12 @@ header > .header__inner{
 .companyprofile{
     margin-top: 100px;
     margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
 }
 
 .companyprofile__title{
-    margin-left: 30%;
 }
 
 .companyprofile__title div{
@@ -425,7 +425,6 @@ header > .header__inner{
 
 .companyprofile__list{
     text-align: left;
-    margin: 0 auto;
 }
 
 .companyprofile__list tr{
@@ -510,6 +509,7 @@ header > .header__inner{
     font-size: 50px;
     margin: 0 auto;
     display: block;
+    caret-color: #ff0000;
 }
 
 #submit__btn{
