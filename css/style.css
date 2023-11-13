@@ -87,16 +87,14 @@ header > .header__inner{
 
 .whatsnew{
     margin-top: 100px;
-    margin-left: 100px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     justify-content: flex-start;
 }
 
 .whatsnew__title{
     inline-size: 150px;
     margin-bottom: 10px;
+    margin-left: 170px;
     text-align: left;
 }
 
@@ -189,12 +187,10 @@ header > .header__inner{
 
 .businesscontents{
     margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
 }
 
 .businesscontents__title{
+    margin-left: 100px;
 }
 
 .businesscontents__title div{
@@ -214,6 +210,7 @@ header > .header__inner{
     display: grid;
     grid-template-rows: 250px 250px;
     grid-template-columns: 500px 500px;
+    justify-content: center;
 }
 
 .businesscontents__item__1{
@@ -311,8 +308,9 @@ header > .header__inner{
 
 .blog__item--all{
     margin-top: 100px;
-    display: flex;
-    flex-direction: column;
+}
+
+.blog__title{
     margin-left: 100px;
 }
 
@@ -331,6 +329,7 @@ header > .header__inner{
 
 .blog__item{
     display: flex;
+    justify-content: center;
 }
 
 .blog__item--element{
@@ -403,12 +402,10 @@ header > .header__inner{
 .companyprofile{
     margin-top: 100px;
     margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
 }
 
 .companyprofile__title{
+    margin-left: 220px;
 }
 
 .companyprofile__title div{
@@ -426,6 +423,7 @@ header > .header__inner{
 
 .companyprofile__list{
     text-align: left;
+    margin: 0 auto;
 }
 
 .companyprofile__list tr{
