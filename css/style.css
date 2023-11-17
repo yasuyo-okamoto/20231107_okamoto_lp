@@ -188,6 +188,7 @@ header > .header__inner{
 
 .businesscontents{
     margin: 100px auto 100px auto;
+    width: 1000px;
 }
 
 .businesscontents__title{
@@ -312,7 +313,7 @@ header > .header__inner{
 }
 
 .blog__title{
-    margin-left: 110px;
+    margin-left: 60px;
 }
 
 .blog__title div{
