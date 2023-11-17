@@ -87,14 +87,15 @@ header > .header__inner{
 
 .whatsnew{
     margin-top: 100px;
+    margin: 0 auto;
+    width: 1000px;
     text-align: center;
-    justify-content: flex-start;
 }
 
 .whatsnew__title{
     inline-size: 150px;
     margin-bottom: 10px;
-    margin-left: 170px;
+    margin-left: 100px;
     text-align: left;
 }
 
@@ -186,11 +187,10 @@ header > .header__inner{
 }
 
 .businesscontents{
-    margin-top: 100px;
+    margin: 100px auto 100px auto;
 }
 
 .businesscontents__title{
-    margin-left: 170px;
 }
 
 .businesscontents__title div{
@@ -209,7 +209,7 @@ header > .header__inner{
 .businesscontents__item{
     display: grid;
     grid-template-rows: 250px 250px;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
 
@@ -307,11 +307,12 @@ header > .header__inner{
 }
 
 .blog__item--all{
-    margin-top: 100px;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .blog__title{
-    margin-left: 170px;
+    margin-left: 110px;
 }
 
 .blog__title div{
@@ -400,12 +401,12 @@ header > .header__inner{
 }
 
 .companyprofile{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px auto 100px auto;
+    width: 1000px;
 }
 
 .companyprofile__title{
-    margin-left: 170px;
+    margin-left: 120px;
 }
 
 .companyprofile__title div{
