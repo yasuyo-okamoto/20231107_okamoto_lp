@@ -505,14 +505,31 @@ header > .header__inner{
     margin-bottom: 50px;
 }
 
-#inquiry__textareabox{
-    border: none;
-    outline: none;
-    font-size: 50px;
-    margin: 0 auto;
-    display: block;
-    caret-color: #ff0000;
-    text-align: center;
+.inquiry__text{
+    display: flex;
+    justify-content: center;
+}
+
+.inquiry__text--1{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    margin-right: 2rem;
+}
+
+.inquiry__text.inquiry__text--1 ::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 6, 176);
+    left: 100%;
+    width: 3px;
+    height: 100%;
+}
+
+.inquiry__text--2{
+    width: 400px;
+    height: 100px;
+    margin-left: 1rem;
 }
 
 #submit__btn{
