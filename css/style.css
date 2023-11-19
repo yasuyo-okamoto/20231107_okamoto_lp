@@ -502,34 +502,18 @@ header > .header__inner{
     font-size: 30px;
     font-weight: bold;
     color: gray;
-    margin-bottom: 50px;
-}
-
-.inquiry__text{
-    display: flex;
-    justify-content: center;
-}
-
-.inquiry__text--1{
+    margin-bottom: 100px;
     position: relative;
-    width: 400px;
-    height: 100px;
-    margin-right: 2rem;
 }
 
-.inquiry__text.inquiry__text--1 ::after{
+.inquiry__title::after{
     content: "";
     position: absolute;
     background-color: rgb(255, 6, 176);
-    left: 100%;
+    left: 50%;
+    top: 50px;
     width: 3px;
-    height: 100%;
-}
-
-.inquiry__text--2{
-    width: 400px;
-    height: 100px;
-    margin-left: 1rem;
+    height: 50px;
 }
 
 #submit__btn{
