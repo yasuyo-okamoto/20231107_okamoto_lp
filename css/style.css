@@ -507,10 +507,12 @@ header > .header__inner{
 
 #inquiry__textareabox{
     border: none;
+    outline: none;
     font-size: 50px;
     margin: 0 auto;
     display: block;
     caret-color: #ff0000;
+    text-align: center;
 }
 
 #submit__btn{
