@@ -51,7 +51,7 @@ header > .header__inner{
 }
 
 .firstview__title{
-    inline-size: 1000px;
+    inline-size: 600px;
     position: absolute;
     top: 20%;
     left: 20%;
