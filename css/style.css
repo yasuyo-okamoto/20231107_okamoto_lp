@@ -41,7 +41,6 @@ header > .header__inner{
 .firstview{
     width: 100%;
     position: relative;
-    height: 500px;
 }
 
 .firstview__img img{
